@@ -10,6 +10,9 @@ public class FlagFactory {
     public List<Color> getFlagColors(Nationality nationality) {
         List<Color> result;
         switch (nationality) {
+        case LUXEMBOURGER:
+            result = Arrays.asList(Color.RED, Color.WHITE, Color.LIGHT_BLUE);
+            break;
         case DUTCH:
             result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE);
             break;
